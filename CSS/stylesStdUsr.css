@@ -1,0 +1,129 @@
+﻿body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+header {
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    height: 150px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btnaddcart, .btndeletecart {
+    font-family: 'Jua', sans-serif;
+    width: 150px;
+    padding: 5px;
+    background-color: #ffe600;
+    color: #1e1e1e;
+    border-color: #ffe600;
+    font-size: 18px;
+}
+
+.cartsection figure {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16pt;
+    display: inline-block;
+    padding: 8px;
+}
+
+.DisplayProduct figure {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16pt;
+    display: inline;
+    padding-bottom: 20px;
+}
+
+.UserProdDisplay figure {
+    font-family: 'Jua', sans-serif;
+    font-size: 16pt;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.UserProdDisplay img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Logout figure {
+    display: inline-block;
+    padding: 8px;
+}
+.mainnav {
+    background: #663300;
+    padding: 15px;
+}
+
+    .mainnav a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        .mainnav a:hover {
+            background-color: #ffe600;
+            color: #1e1e1e;
+        }
+
+h1, h2, h3 {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.lblstyle {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+}
+
+table, thead, tbody {
+    font-family: 'Do Hyeon', sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+    tbody td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        font-size: 16pt;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    thead th {
+        padding: 10px;
+        text-align: center;
+        background-color: #ffe600;
+        color: #1e1e1e;
+        font-size: 16pt;
+    }
+
+footer {
+    background: #663300;
+    padding: 10px;
+    color: #f2f2f2;
+}
+
+    footer p {
+        font-family: 'Jua', sans-serif;
+        text-align: center;
+    }
