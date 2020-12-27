@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MLoggedIn.Master.cs" Inherits="CA4_10385012.M1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/CSS/stylesStdUsr.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet"> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <img src="../CSS/nissoott.png" alt="nissoott" class="logo"/>
+                <h1>Welcome to nissott's official website!</h1>
+            </header>
+
+            <div class="mainnav">
+                <a href="Default2.aspx"><h1>Home</h1></a>
+                <a href="Product1.aspx"><h1>Products</h1></a>
+                <a href="Cart.aspx"><h1>My Cart</h1></a>
+                <a href="LogoutStd.aspx"><h1>Log Out</h1></a>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+      <footer>
+          <p>Nissoott &copy; 2020. All right reserved.</p>
+      </footer>
+    </form>
+</body>
+</html>
